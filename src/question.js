@@ -18,7 +18,7 @@ export class Question {
 
   static fetch(token) {
     if (!token) {
-      return Promise.resolve('<p class="error">Your email or password isn`r correct</p>')
+      return Promise.resolve('<p class="error">Your email or password isn`t correct</p>')
     }
     return fetch(`https://lucrare-individuala-default-rtdb.firebaseio.com/feedback.json?auth=${token}`)
       .then(response => response.json())
