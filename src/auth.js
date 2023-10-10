@@ -1,3 +1,5 @@
+import { apiKey } from './utils'
+
 export function getAuthForm() {
   return `
     <form class="mui-form" id="auth-form">
