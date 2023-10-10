@@ -14,3 +14,5 @@ export function createModal(title, content) {
 
   mui.overlay('on', modal)
 }
+
+export const apiKey = 'YOUR_FIREBASE_API_KEY'
